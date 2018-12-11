@@ -48,6 +48,7 @@ public class RegisterSteps {
 		   driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("Sidiqui1");
 		   driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("masoodsdq11@gmail.com");
 		   driver.findElement(By.xpath("//input[@placeholder='Confirm Email']")).sendKeys("masoodsdq11@gmail.com");
+		   Thread.sleep(1000);
 		   driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("sidiquimk3");
 		   driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("sidiquimk1ABC");
 		   driver.findElement(By.xpath("//input[@placeholder='Confirm Password']")).sendKeys("sidiquimk1ABC");
