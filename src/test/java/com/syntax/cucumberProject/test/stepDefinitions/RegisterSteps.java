@@ -27,18 +27,18 @@ public class RegisterSteps {
 		driver.manage().window().maximize();
 	}
 
-	@Given("^navigate to freeCRM$")
+	@Given("^navigate to freeCRM$")  //PRECONDITION
 	public void navigate_to_freeCRM() throws Throwable {
 		driver.get("https://www.freecrm.com/index.html");
 		Thread.sleep(3000);
 	}
 
-	@When("^I click signup$")
+	@When("^I click signup$") //ACTION
 	public void i_click_signup() throws Throwable {
 	    driver.findElement(By.xpath("//font[@color='red']")).click();
 	}
 
-	@When("^Fill the form$")
+	@When("^Fill the form$") //ACTION
 	public void fill_the_form() throws Throwable {
 		WebElement selectEdition = driver.findElement(By.xpath("//select[@id='payment_plan_id']"));
 		   Select select = new Select(selectEdition);
@@ -56,18 +56,18 @@ public class RegisterSteps {
 		   Thread.sleep(3000);
 	}
 
-	@When("^I click submit$")
+	@When("^I click submit$")  //ACTION
 	public void i_click_submit() throws Throwable {
 		driver.findElement(By.xpath("//button[@id='submitButton']")).click();
 		Thread.sleep(3000);
 	}
 
-	@Then("^Successfully i register for new account$")
+	@Then("^Successfully i register for new account$")  //OUTCOME
 	public void successfully_i_register_for_new_account() throws Throwable {
 	    Assert.assertTrue(true);
 	}
 
-	@Then("^i quite browser$")
+	@Then("^i quite browser$")  //OUTCOME
 	public void i_quite_browser() throws Throwable {
 	    driver.quit();
 }
