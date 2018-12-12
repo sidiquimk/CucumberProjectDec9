@@ -54,8 +54,7 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_open_browser(int)"
 });
 formatter.result({
-  "duration": 6449865855,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -67,8 +66,7 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_navagate_to_the_FreeCrm(int)"
 });
 formatter.result({
-  "duration": 2278345220,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -84,8 +82,7 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 3136924353,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -97,8 +94,7 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_click_login_button(int)"
 });
 formatter.result({
-  "duration": 5789301618,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -110,15 +106,13 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_successfully_logged_in(int)"
 });
 formatter.result({
-  "duration": 2004348737,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepsDec11CW.i_close_browser()"
 });
 formatter.result({
-  "duration": 867571370,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 12,
@@ -168,8 +162,7 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_open_browser(int)"
 });
 formatter.result({
-  "duration": 3788230041,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -181,8 +174,7 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_navagate_to_the_FreeCrm(int)"
 });
 formatter.result({
-  "duration": 1912489480,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -198,8 +190,7 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 3155886758,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -211,22 +202,19 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_click_login_button(int)"
 });
 formatter.result({
-  "duration": 2809876128,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepsDec11CW.i_see_error_message()"
 });
 formatter.result({
-  "duration": 1999800857,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepsDec11CW.i_close_browser()"
 });
 formatter.result({
-  "duration": 822878875,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 20,
@@ -276,8 +264,7 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_open_browser(int)"
 });
 formatter.result({
-  "duration": 3855533516,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -289,8 +276,7 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_navagate_to_the_FreeCrm(int)"
 });
 formatter.result({
-  "duration": 1972605251,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -306,8 +292,7 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_enter_and(String,String)"
 });
 formatter.result({
-  "duration": 3017887271,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -319,21 +304,18 @@ formatter.match({
   "location": "LoginStepsDec11CW.i_click_login_button(int)"
 });
 formatter.result({
-  "duration": 2792555071,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepsDec11CW.i_see_different_error_message()"
 });
 formatter.result({
-  "duration": 1997014442,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginStepsDec11CW.i_close_browser()"
 });
 formatter.result({
-  "duration": 832223167,
-  "status": "passed"
+  "status": "skipped"
 });
 });

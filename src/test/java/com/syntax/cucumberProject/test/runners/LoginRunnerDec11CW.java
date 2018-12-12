@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		""
 		,monochrome = true
 		, plugin = {"pretty", "html:test-output"}
-		, dryRun = false)
+		, dryRun = true)
 
 public class LoginRunnerDec11CW {
 
