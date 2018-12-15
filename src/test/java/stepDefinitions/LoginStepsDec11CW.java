@@ -1,4 +1,4 @@
-package com.syntax.cucumberProject.test.stepDefinitions;
+package stepDefinitions;
 
 import java.util.concurrent.TimeUnit;
 
@@ -7,13 +7,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import utility.BaseClass;
 
-public class LoginStepsDec11CW {
-	WebDriver driver;
+public class LoginStepsDec11CW extends BaseClass {
+	
 	
 	@Given("^I open browser(\\d+)$")
 	public void i_open_browser(int arg1) throws Throwable {

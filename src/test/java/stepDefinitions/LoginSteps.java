@@ -1,4 +1,4 @@
-package com.syntax.cucumberProject.test.stepDefinitions;
+package stepDefinitions;
 
 import java.util.concurrent.TimeUnit;
 
@@ -10,9 +10,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import utility.BaseClass;
 
-public class LoginSteps {
-	WebDriver driver;
+public class LoginSteps extends BaseClass{
+	
 	
 	@Given("^I open browser$")
 	public void i_open_browser() throws Throwable {
@@ -29,6 +30,7 @@ public class LoginSteps {
 	public void i_navagate_to_the_FreeCrm() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.get("https://www.freecrm.com/index.html");
+		Thread.sleep(3000);
 	}
 
 	@When("^I enter valid username and password$")

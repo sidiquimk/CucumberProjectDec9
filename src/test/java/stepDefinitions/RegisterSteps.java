@@ -1,6 +1,5 @@
-package com.syntax.cucumberProject.test.stepDefinitions;
+package stepDefinitions;
 
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -10,13 +9,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import utility.BaseClass;
 
-public class RegisterSteps {
-	WebDriver driver;
+public class RegisterSteps extends BaseClass{
 	
 	@Given("^I open my browser$")
 	public void i_open_my_browser() throws Throwable {
